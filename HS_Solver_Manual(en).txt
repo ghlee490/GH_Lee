@@ -1,0 +1,27 @@
+Step 1. Install an Excel Add-in
+1) Download Add-in file. (filename extension: ".xlam")
+2) Run Excel first, and click 'File' - 'Options' - 'Add-ins' on menu.
+3) Click the 'Go' button in the 'Manage' part.
+4) Click the 'Browse' button, and find .xlam file which is downloaded step 1-1).
+5) Click check-box of the file you just added on the 'Add-ins available' list.
+6) Return to Excel 'file'-'Option' menu, and click the 'Customize Ribbon'.
+7) Select the 'Macro' on the 'Choose commands from' list-box.
+8) Find the Add-in file on the left side, and select the ribbon tab you want to 
+ add the Add-in on the right side.
+9) Go to that ribbon tab and click on the newly added Add-in to run it.
+
+Step 2. Use the HS_Solver
+1) Click the "_" button on the 'Objective Function Cell' part, and select the cell which
+ objective function is entered in the Excel Sheet.
+2) In the 'Is to be' part, if the optimization problem is to find the maximum value, check 
+ the 'Maximized', or if the problem is to find minimum value, check the 'Minimized'
+3) Click the "Add" button on the 'Decision Variable Cells' part, and in the 'Range' item,
+ select the cells which decision variables are entered in the Excel Sheet.
+4) Enter the min and max value of decision variables, and if decision variables are integers, 
+ choose the 'integer' in the 'Values' item. if not, choose the 'Any'.
+5) If there are some constraints in the optimization problem, click the 'Add' button in the
+ 'Constraints' part, and select a cell in which a function to check the constraint is entered 
+ in Excel Sheet in the 'Cell references' item.
+ Then, the select sign of inequality, and enter the value in the 'Constrints' item.
+6) Click the 'Option' button, and adjust the algorithm parameters.
+7) Click the "Run" button to start calculate.
